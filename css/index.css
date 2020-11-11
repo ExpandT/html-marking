@@ -1,25 +1,166 @@
-.partners{
-    background-color: black;
-    size: 60%;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Signika&display=swap');
+:root{
+    --main-color: white;
+    font-family: Open Sans,sans-serif;
+}
+body{
+    max-width: 100%;
+    margin: auto;
+}
+.burger-icon{
+    color: white;
 }
 header nav a .logo-img{
     width: 131px;
     display: flex;
 
 }
+header{
+    background: #212121;
+}
+#burger-checkbox{
+    display: none;
+}
 header nav .hotbar{
+    display: none;
+}
+header nav input:checked ~ .hotbar{
     display: block;
+}
+header nav .hotbar a{
+    display: block;
+    font-family: Open Sans,sans-serif;
     text-decoration: none;
+    text-align: center;
     color: var(--main-color);
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 3px;
+    margin-bottom: 1em;
 }
-header nav{
+.hotbar > a:hover{
+    color: orange;
+}
+header nav {
     display: flex;
 }
-header div .banner h1{
-    font-size: 1.5em;
+.banner{
+    align-content: center;
+    padding: 60px;
+    display: block;
+    margin: 40px;
+    padding-left: 0;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    padding-bottom: 35px;
+}
+h1{
+    font-size: 60px;
     font-weight: bold;
     text-align: left;
+    color: var(--main-color);
+    font-family: 'Acme', sans-serif;
+    align-content: center;
+    margin-bottom: 20px;
+}
+.btn-learnmore{
+    padding: 18px 26px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #edc100;
+    border-radius: 4px;
+    line-height: 1.2;
+    color: white;
+    background-color: #edc100;
+    font-family: Open Sans,sans-serif;
+}
+.btn-schedule{
+    padding: 18px 26px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 2px;
+    line-height: 1.2;
+    color: white;
+    background-color: #212121;
+    font-family: Open Sans,sans-serif;
+}
+.btn-learnmore:hover{
+    background: white;
+    color: black;
+    border: 2px solid white;
+}
+.btn-schedule:hover{
+    background: white;
+    color: black;
+}
+header .company-info{
+    padding: 60px;
+    margin: 40px;
+    text-align: center;
+}
+header div section h2{
+    color: #edc100;
+    margin: 30px;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
+}
+header div section p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    font-family: Open Sans,sans-serif;
+    color: #c9c9c9;
+}
+header .partners{
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+    text-align: left;
+}
+header .partners h2{
+    font-size: 36px;
+    color: var(--main-color);
+    font-family: Signika,sans-serif;
+    font-weight: 600;
+}
+header .partners p{
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Open Sans,sans-serif;
+    font-weight: 700;
+    color: var(--main-color);
+    text-decoration: none;
+    font-style: normal;
+}
+header .partners img{
+    background-color: #373737;
+    width: 70%;
+    padding: 31px 27px 31px 27px;
+    margin: auto;
+}
+@media (min-width: 769px){
+    header nav{
+        display: flex;
+    }
+    header nav .hotbar{
+        display: flex;
+        justify-content: flex-end;
+        font-family: Open Sans,sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--main-color);
+        border: 1px solid transparent;
+    }
+    .burger-icon{
+        display: none;
+    }
+    header div .partners{
+        display: flex;
+        width: 131px;
+    }
 }
