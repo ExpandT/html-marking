@@ -116,6 +116,29 @@ header .company-info p{
     font-family: Open Sans,sans-serif;
     font-weight: 700;
 }
+header .partners{
+    padding-left: 30px;
+}
+header .partners h2{
+    color: white;
+    font-family: Open Sans,sans-serif;
+    font-size: 40px;
+    }
+header .partners p{
+    color: white;
+    font-family: Open Sans,sans-serif;
+    font-size: 19px;
+}
+header .partners-img img{
+    max-width: 320px;
+    padding: 90px 30px 90px 30px;
+    margin: 50px 50px 50px 50px;
+    background: rgb(43, 42, 42);
+    
+}
+main .about-us{
+    background: white;
+}
 @media (min-width: 769px){
     header nav .hotbar{
         display: flex;
@@ -134,9 +157,5 @@ header .company-info p{
     header .company-info{
         display: flex;
         justify-content: space-around;
-    }
-    header div .partners{
-        display: flex;
-        width: 131px;
     }
 }
