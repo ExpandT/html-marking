@@ -51,6 +51,13 @@ header nav {
     padding-top: 30px;
     margin: 0px 30px 0px 0px;
 }
+header .bannerimg{
+    display: flex;
+    align-items: center;
+}
+.bg-img img{
+    width: 100%;
+}
 header .banner{
     margin: 200px 0px 0px 45px;
 }
@@ -101,20 +108,22 @@ header .banner p{
     color: black;
 }
 header .company-info{
-    margin-top: 120px;
+    padding-top: 170px;
+    padding-bottom: 100px;
     text-align: center;
 }
 header .company-info h2{
     color: #edc100;
-    font-size: 100px;
+    font-size: 60px;
     font-family: "Acme",sans-serif;
-    font-weight: 400;
+    font-weight: bold;
+    margin: auto;
 }
 header .company-info p{
     color: rgb(151, 151, 151);
-    font-size: 20px;
+    font-size: 16px;
     font-family: Open Sans,sans-serif;
-    font-weight: 700;
+    font-weight: bold;
 }
 header .partners{
     padding-left: 30px;
@@ -122,18 +131,22 @@ header .partners{
 header .partners h2{
     color: white;
     font-family: Open Sans,sans-serif;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 700;
     }
 header .partners p{
     color: white;
     font-family: Open Sans,sans-serif;
     font-size: 19px;
 }
+header .partners-img{
+    text-align: center;
+}
 header .partners-img img{
     max-width: 320px;
-    padding: 90px 30px 90px 30px;
-    margin: 50px 50px 50px 50px;
     background: rgb(43, 42, 42);
+    margin-bottom: 30px;
+    padding: 31px 27px 31px 27px;
     
 }
 main .about-us{
