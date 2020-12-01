@@ -11,9 +11,10 @@
     padding-bottom: 20px;
     color: aliceblue;
 }
-body{
-    max-width: 1200px;
-    margin: auto;
+body  {
+    max-width: 1200px !important;
+    margin: auto !important;
+    text-align: center !important;
     background-image: url(../img/background.png);
     background-size: cover;
 }
@@ -247,6 +248,82 @@ main .btn-schedull{
     color: white ;
     background-color: rgb(61, 60, 60);
     font-family: Open Sans,sans-serif;
+}
+main .our-team {
+    background: white;
+}
+main .our-team section{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+main .our-team img{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    text-align: center;
+}
+main .our-team h2{
+    font-size: 29px;
+    line-height: 1.4;
+    font-family: Signika,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .027em;
+    color: #212121;
+}
+main .our-team h3{
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Open Sans,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #555;
+}
+main .our-team p{
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #555;
+}
+main .our-team section img{
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+}
+main .courses{
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+main .courses h2{
+    font-size: 42px;
+    color: white;
+    line-height: 1.3;
+    font-family: Signika,sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: -.01em;
+    text-align: center;
+}
+main .courses p{
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Open Sans,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: white;
+    text-align: center;
 }
 @media (min-width: 769px){
     header nav .hotbar{
