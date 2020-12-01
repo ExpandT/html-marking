@@ -12,6 +12,7 @@
     color: aliceblue;
 }
 body  {
+    width: 100%;
     max-width: 1200px !important;
     margin: auto !important;
     text-align: center !important;
@@ -144,7 +145,9 @@ header .partners-img{
     text-align: center;
 }
 header .partners-img img{
+    width: 100%;
     max-width: 320px;
+    height: 205px;
     background: rgb(43, 42, 42);
     margin-bottom: 30px;
     padding: 31px 27px 31px 27px;
@@ -257,7 +260,7 @@ main .our-team section{
     padding-left: 30px;
     padding-bottom: 50px;
 }
-main .our-team img{
+main .our-team div img{
     width: 100%;
     max-width: 375px;
     height: auto;
@@ -344,4 +347,27 @@ main .courses p{
         display: flex;
         justify-content: space-around;
     }
+    main .about-us{
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+    main .about-us img{
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+    }
+    main .about-us div{
+        padding: 30px 30px 30px 30px;
+    }
+    main .our-team {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    main .our-team img{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    text-align: center;
+}
 }
