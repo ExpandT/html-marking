@@ -4,11 +4,8 @@
     font-family: Open Sans,sans-serif;
 }
 .clock{
-    font-size: 56px;
+    font-size: 28px;
     text-align: center;
-    margin-top: 55px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     color: aliceblue;
 }
 body  {
